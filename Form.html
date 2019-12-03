@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container col-lg-8 bg-warning"><h3 style="text-align:center;">REGISTRATION FORM</h3>
+</div>
+<div class="container col-lg-8 bg-light">
+	<h4 class="col-lg-12 text-warning bg-dark">Student Details</h4>
+	
+<form class="form-horizontal" role="form">
+	<div class="col-lg-2">
+      	<label class="row"><strong>Name:</strong></label>
+      </div>
+     <div class="form-group">
+       <input class="col-lg-3" type="text" name="firstName" placeholder="First Name">
+       <input class="col-lg-3" type="text" name="middleName" placeholder="Middle Name">
+       <input class="col-lg-3" type="text" name="lastName" placeholder="Last Name">
+       </div>
+
+       <div class="form-group">
+    <label><strong>Date of birth:</strong>
+    	
+    	
+     <input class="col-lg-7 "type="date" placeholder="Date Of Birth">
+     
+  </label>
+</div>
+
+
+<div class="form-group">
+            <label> <strong>Gender:</strong></label>
+              <select class="col-lg-2" type="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+
+          <div class="form-group">
+          	
+          	<label> <strong>Address:</strong></label>
+	<input class="col-lg-4" type="text" name="addressLine1" placeholder="Address Line 1">
+
+        <input class="col-lg-4" type="text" name="addressLine2" placeholder="Address Line 2"> 
+                <br />
+        <input type="text" name="city" placeholder="City">
+        
+         <input type="text" name="state" placeholder="State">
+         <input class="col-lg-2" type="text" name="postal Code" placeholder="PinCode">
+              </div>
+         <h4 class="col-lg-12 text-warning bg-dark">Parent Details</h4>
+         <div class="form-group">
+         	<label><strong>Father's Name:</strong></label>
+         <input class="col-lg-3" type="text" name="Firstname" placeholder="Firstname">
+       <input class="col-lg-3" type="text" name="lastName" placeholder="lastName">
+       </div>
+        <div class="form-group">
+        	<label><strong>MailId:</strong></label>
+         <input class="col-lg-3" type="text" name="email" placeholder="example@gmail.com">
+         <label><strong>Mob.No:</strong></label>
+       <input class="col-lg-3" type="text" name="number" placeholder="10 digit No.">
+       </div>
+
+       <div class="form-group">
+      	<label><strong>Father's Occupation:</strong></label>
+      		<input class="col-lg-3" type="text" name="occupation" placeholder="occupation">
+      	</div>
+      
+      <h4 class="col-lg-12 text-warning bg-dark">Academic Details</h4>
+      <div class="form-group">
+      	<label><strong>Previous institution:</strong></label>
+      		<input class="col-lg-5" type="text">
+      	</div>
+      	<div class="form-group">
+      	<label><strong>SSLC percentage/Grade:</strong></label>
+      		<input class="col-lg-2" type="text">
+      	</div>
+
+      	<div class="form-group">
+      		 <label> <strong>Prefered course:</strong></label>
+              <select class="col-lg-3" type="dropdown">
+                <option>Biology</option>
+                <option>Computer science</option>
+                <option>Bussiness Maths</option>
+                <option>Commerce</option>
+                <option>Biochemistry</option>
+              </select>
+          </div>
+
+        <div class="form-group">
+      	 
+      	  <label> <strong>Prefered language: </strong></label>
+      <div class="form-check-inline">
+      <label class="form-check-label" for="check1">
+        <input type="checkbox" class="form-check-input">Tamil
+      </label>
+    </div>
+    <div class="form-check-inline">
+      <label class="form-check-label" for="check2">
+        <input type="checkbox" class="form-check-input">French
+      </label>
+    </div>
+    <div class="form-check-inline">
+      <label class="form-check-label">
+        <input type="checkbox" class="form-check-input">Sanskrit
+      </label>
+    </div>
+</div>
+ <h4 class="col-lg-12 text-warning bg-dark">Student Attachments:</h4>
+<label><strong>Upload Photo:</strong></label>
+  <div class="custom-file">
+
+    <input type="file" class="custom-file-input" id="customFile">
+    <label  class="custom-file-label col-lg-4" for="customFile">Choose file</label>
+    </div>
+
+<label><strong>Upload SSLC marksheet:</strong></label>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="customFile">
+    <label  class="custom-file-label col-lg-4" for="customFile">Choose file</label>
+  </div>
+ 
+<hr color="black" style="width:70%">
+<div class="container col-lg-4">
+      	 <button style="center-align" type="button" class="btn btn-secondary">Reset</button>
+<button style="center-align" type="button" class="btn btn-success">Submit</button>
+</div>
+
+
+      
+      </form>
+
+  </div>
+</body>
+  
+  
